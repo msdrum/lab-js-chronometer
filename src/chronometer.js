@@ -46,10 +46,13 @@ class Chronometer {
 
   stop() {
     // ... your code goes here
+    const stopInterval = this.currentTime;
+    clearInterval(stopInterval);
   }
 
   reset() {
     // ... your code goes here
+    let chronometer;
   }
 
   split() {
